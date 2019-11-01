@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Fri Nov 01 00:49:40 CDT 2019
+#Fri Nov 01 01:32:11 CDT 2019
 70.path=lib/armeabi-v7a/libjscexecutor.so
 64.base=/home/ryanc/Documents/GitHub/musiclauncher/android/app/build/intermediates/transforms/mergeJniLibs/debug/0
 64.baseType=DIRECTORY

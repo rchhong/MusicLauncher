@@ -1,11 +1,11 @@
 import React, {Component} from 'react'
 import {
     View,
-    Button,
+    TouchableOpacity,
     StyleSheet
 } from 'react-native'
 
-import Icon from 'react-native-vector-icons/FontAwesome';
+import Icon from 'react-native-vector-icons/MaterialIcons';
 
 export default class AddEntry extends Component
 {
@@ -13,19 +13,18 @@ export default class AddEntry extends Component
         super(props);
     }
 
+    handlePress()
+    {
+        alert("asdfdsafa");
+    }
     render() {
         return (
             <View style={{marginLeft: "5%", marginRight: "5%", width: "90%", backgroundColor: "#FF8877"}}>
-                <Button
-                icon={
-                    <Icon
-                    name="glass"
-                    size={15}
-                    color="white"
-                    />
-                }
-                title="Button with icon component"
-                />
+                <TouchableOpacity>
+                    <View>
+                        <Icon onPress={this.handlePress.bind(this)} style={{textAlign: "center"}} name="add" size={50} color="#900" />
+                    </View>
+                </TouchableOpacity>
             </View>
         );
     }

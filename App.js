@@ -16,6 +16,17 @@ const styles = StyleSheet.create({
 
 export default class App extends Component
 {
+  constructor(props)
+  {
+    super(props);
+    this.state = {
+      items: [
+        {title: "asdf"},
+        {title: "qwer"},
+        {title: "8989"}
+      ]
+    }
+  }
   render() {
     return (
       <>
@@ -25,8 +36,11 @@ export default class App extends Component
             <ScrollView
               contentInsetAdjustmentBehavior="automatic"
               style={{backgroundColor : "#998833"}}>
-                <AppEntry title="asdf" />
-                <AppEntry title="asdf" />
+                {
+                  this.state.items.map((item, index) => {
+                    return <AppEntry key={index} title={item.title} />;
+                  })
+                }
                 <AddEntry />
             </ScrollView>
           </View> 
