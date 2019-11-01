@@ -5,6 +5,7 @@ INJECTED from /home/ryanc/Documents/GitHub/musiclauncher/android/app/src/main/An
 INJECTED from /home/ryanc/Documents/GitHub/musiclauncher/android/app/src/main/AndroidManifest.xml:1:1-26:12
 INJECTED from /home/ryanc/Documents/GitHub/musiclauncher/android/app/src/main/AndroidManifest.xml:1:1-26:12
 MERGED from /home/ryanc/Documents/GitHub/musiclauncher/android/app/src/main/AndroidManifest.xml:1:1-26:12
+MERGED from [:react-native-vector-icons] /home/ryanc/Documents/GitHub/musiclauncher/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [com.facebook.react:react-native:0.61.2] /home/ryanc/.gradle/caches/transforms-2/files-2.1/7cb1dbc1d05da230a94cf153228d799d/AndroidManifest.xml:2:1-13:12
 MERGED from [org.webkit:android-jsc:r245459] /home/ryanc/.gradle/caches/transforms-2/files-2.1/3f0dde21a6b3dd5751fc963c5536217c/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.appcompat:appcompat:1.0.2] /home/ryanc/.gradle/caches/transforms-2/files-2.1/c08b7cb5dff61fa4a3010d6dba1a9dbf/AndroidManifest.xml:17:1-22:12
@@ -132,6 +133,8 @@ uses-sdk
 INJECTED from /home/ryanc/Documents/GitHub/musiclauncher/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /home/ryanc/Documents/GitHub/musiclauncher/android/app/src/main/AndroidManifest.xml
 INJECTED from /home/ryanc/Documents/GitHub/musiclauncher/android/app/src/main/AndroidManifest.xml
+MERGED from [:react-native-vector-icons] /home/ryanc/Documents/GitHub/musiclauncher/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
+MERGED from [:react-native-vector-icons] /home/ryanc/Documents/GitHub/musiclauncher/node_modules/react-native-vector-icons/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.61.2] /home/ryanc/.gradle/caches/transforms-2/files-2.1/7cb1dbc1d05da230a94cf153228d799d/AndroidManifest.xml:7:5-9:41
 MERGED from [com.facebook.react:react-native:0.61.2] /home/ryanc/.gradle/caches/transforms-2/files-2.1/7cb1dbc1d05da230a94cf153228d799d/AndroidManifest.xml:7:5-9:41
 MERGED from [org.webkit:android-jsc:r245459] /home/ryanc/.gradle/caches/transforms-2/files-2.1/3f0dde21a6b3dd5751fc963c5536217c/AndroidManifest.xml:7:5-9:41

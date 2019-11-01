@@ -1,4 +1,4 @@
-#Tue Oct 15 01:24:24 CDT 2019
+#Fri Nov 01 00:49:39 CDT 2019
 base.0=/home/ryanc/Documents/GitHub/musiclauncher/android/app/build/intermediates/transforms/dexMerger/debug/0
 renamed.0=classes.dex
 path.0=classes.dex
